@@ -33,8 +33,8 @@ let x: test = new ObjectId();
 let y: test = new ObjectId();
 let a = false;
 
-a = x === y;
-if (x === y) {
+a = x === y; //trigger error
+if (x === y) {//trigger error
   console.log('error');
 }
 
@@ -45,23 +45,23 @@ if (x.equals(y)) {
 
 x = null;
 
-a = x === y;
-if (x === y) {
+a = x === y; //trigger error
+if (x === y) { //trigger error
   console.log('error');
 }
 
 x = new ObjectId();
 y = false;
 
-a = x === y;
-if (x === y) {
+a = x === y; //trigger error
+if (x === y) {//trigger error
   console.log('error');
 }
 
 y = x;
 
-a = x === y;
-if (x === y) {
+a = x === y; //trigger error
+if (x === y) {//trigger error
   console.log('error');
 }
 
