@@ -1,0 +1,15 @@
+{
+  "name": "@mugambi-mongodb/eslint-plugin",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mugambi-Ian/mugambi-mongodb-eslint-plugin"
+  },
+  "scripts": {},
+  "peerDependencies": {
+    "eslint": "8.14.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
